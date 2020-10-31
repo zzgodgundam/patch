@@ -6,6 +6,7 @@
 #include <sys/stat.h>
 #include <stdio.h>
 #include <fcntl.h>
+#include <direct.h>
 
 #define _stat	_stati64
 #define stat	_stati64
